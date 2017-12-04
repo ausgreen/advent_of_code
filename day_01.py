@@ -1,7 +1,5 @@
-
-def day_01(number):
-    '''
-    The captcha requires you to review a sequence of digits (your puzzle input) and
+'''
+The captcha requires you to review a sequence of digits (your puzzle input) and
     find the sum of all digits that match the next digit in the list. The list is
     circular, so the digit after the last digit is the first digit in the list.
 
@@ -15,6 +13,19 @@ def day_01(number):
     last digit, 9.
 
     What is the solution to your captcha?
+
+THOUGHTS:
+This is a pretty simple problem, I need to cycle through each digit of the
+input and check if the next digit matches.  If they do, add the digit and move
+to the next one.  There is an edge conditional that if the number is the last
+number in the list, compare it to the first number in the list.
+
+The edge conditional can be removed using reverse indexing and starting at the
+-1th index
+'''
+def day_01(number):
+    '''
+
     '''
     num_str = str(number)
     digit_sum = 0

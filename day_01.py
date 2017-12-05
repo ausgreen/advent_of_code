@@ -24,9 +24,6 @@ The edge conditional can be removed using reverse indexing and starting at the
 -1th index
 '''
 def day_01(number):
-    '''
-
-    '''
     num_str = str(number)
     digit_sum = 0
 

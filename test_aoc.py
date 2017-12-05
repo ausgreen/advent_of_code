@@ -16,3 +16,12 @@ def test_day_2():
     import day_02
 
     assert day_02.day_02('''5\t1\t9\t5\n7\t5\t3\n2\t4\t6\t8''') == 18
+
+def test_day_3():
+    import day_03
+
+    assert day_03.day_03(1) == 0
+    assert day_03.day_03(12) == 3
+    assert day_03.day_03(23) == 2
+    assert day_03.day_03(1024) == 31
+

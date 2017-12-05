@@ -25,3 +25,11 @@ def test_day_3():
     assert day_03.day_03(23) == 2
     assert day_03.day_03(1024) == 31
 
+def test_day_4():
+    # I solved this quickly and didn't write any tests
+    assert "test_pass" == "test_pass"
+
+def test_day_5():
+    import day_05
+    input = '''0\n3\n0\n1\n-3'''
+    assert day_05.day_05(input) == 5
